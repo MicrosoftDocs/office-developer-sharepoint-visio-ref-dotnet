@@ -39,7 +39,8 @@
         "SourceXmlFolder": "officedocs-dev-sharepoint-visio/xml",
         "OutputYamlFolder": "officedocs-dev-sharepoint-visio/api",
         "Flatten": true,
-        "id": "officedocs-dev-sharepoint-visio"
+        "id": "officedocs-dev-sharepoint-visio",
+        "SDPMode": true        
       },
       "SplitTOC": [
         "officedocs-dev-sharepoint-visio/api/officedocs-dev-sharepoint-visio/toc.yml"
@@ -88,8 +89,5 @@
       "target_framework": "net45",
       "version": "latest"
     }
-  ],
-  "ECMA2Yaml": {
-    "SDPMode": "true"
-  }
+  ]
 }
